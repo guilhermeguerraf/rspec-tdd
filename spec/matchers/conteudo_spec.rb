@@ -7,12 +7,12 @@ describe "Comparação de Conteúdo" do
   
   context "Começa ou termina com" do
     it '#start_with' do
-      expect("Fulano de Tal").to start_with("Fulano")
+      expect("Fulano de Tal").to start_with("Ful")
       expect([1,2,3]).to start_with(1)
     end
   
     it '#end_with' do
-      expect("Fulano de Tal").to end_with("Tal")
+      expect("Fulano de Tal").to end_with("al")
       expect([1,2,3]).to end_with(3)
     end
   end
