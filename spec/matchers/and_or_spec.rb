@@ -4,6 +4,6 @@ describe "Composição de expectativas" do
   end
 
   context '#or' do
-    it { expect([1,2].sample).to eq(1).or eq(2) }
+    it { expect(fruta).to eq('banana').or eq('laranja') }
   end
 end
